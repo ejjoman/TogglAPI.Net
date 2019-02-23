@@ -35,5 +35,9 @@ namespace Toggl.Interfaces
         /// <param name="Id"></param>
         /// <returns></returns>
         bool Delete(int id);
+
+        List<Task> ForProject(int id);
+
+        List<Task> ForProject(Project project);
     }
 }
